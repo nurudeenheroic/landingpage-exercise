@@ -70,3 +70,35 @@ header{
 .hero-img p{
     align-self: center;
 }
+.info-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+.subtext{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    gap: 55px;
+}
+.sub{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 145px;    
+}
+.sub div{
+    width: 90px;
+    height: 90px;
+    align-self: center;
+    border: 2px solid #3882f6;
+    border-radius: 7px;
+}
+.sub p{
+    text-align: center;
+    margin-top: 5px;
+}
