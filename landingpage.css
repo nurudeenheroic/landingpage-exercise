@@ -123,3 +123,44 @@ header{
     align-self: flex-end;
     font-weight: bolder;
 }
+.section-call{
+    background-color: white;
+    display: flex;
+    height: 400px;
+    justify-content: center;
+    align-items:center ;
+}
+.call-to-action{
+    background-color: #3882f6;
+    width: 70%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+.call-to-action div:last-child{
+    flex-basis: 1;
+    margin-left: auto;
+    align-self: center;
+}
+.call-to-action div:first-child{
+    flex-basis: 3;
+    align-self: center;
+}
+.the-call{
+    color: #f9faf8;
+    font-weight: bold;
+}
+#the-call{
+    color: #e5e7eb;
+}
+.call-to-action div button{
+    border: 1px solid white;
+    border-radius: 7px;
+    background-color: inherit;
+    width: 100px;
+    height: 40px;
+    color: white;
+}
