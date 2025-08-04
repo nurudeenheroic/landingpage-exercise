@@ -102,3 +102,24 @@ header{
     text-align: center;
     margin-top: 5px;
 }
+.quote-section{
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    height: 450px;
+    justify-content: center;
+    align-items: center;
+}
+.quote-section div{
+    width: 58%;
+    display: flex;
+    flex-direction: column;
+}
+.quote-section p:last-child{
+    align-self: flex-end;
+    font-weight: bolder;
+}
