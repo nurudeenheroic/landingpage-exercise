@@ -164,3 +164,13 @@ header{
     height: 40px;
     color: white;
 }
+.copyright{
+    background-color: #1f2937;
+    color: white;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+.copyright p{
+    align-self: center;
+}
