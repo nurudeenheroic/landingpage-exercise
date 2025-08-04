@@ -27,3 +27,46 @@ header{
     background-color: #1f2937;
     padding: 0 150px;
 }
+.hero-section{
+    display: flex;
+    padding: 0 150px;
+    background-color: #1f2937;
+    height: 350px;
+    align-items: center;
+    gap: 100px;
+}
+.hero{
+    flex: 1;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+}
+.hero h1{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+.hero p{
+    font-size: 18px;
+    color: #e5e7eb;
+    flex-basis: 1;
+}
+.hero button{
+    background-color: #3882f6;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    width:95px;
+    height:30px;
+    margin-top: auto ;
+    }
+.hero-img{
+     background-color: rgb(141, 141, 141);
+    color: white;
+    display: flex;
+    justify-content: center;
+   
+}
+.hero-img p{
+    align-self: center;
+}
